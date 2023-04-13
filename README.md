@@ -4,7 +4,8 @@
 ## Date created: April 12, 2023
 ## Date started: April 10, 2023
 ## Running addKEGGPathways.py:
-### Calling on the command line: python addKEGGPathways.py [input BLAST file] -t [e-value threshold] [output file]
+### Calling on the command line: 
+python addKEGGPathways.py [input BLAST file] -t [e-value threshold] [output file]
 ## Tests: 
 test_addKEGGPathways.py (run with pytest)
 - test_getUniProtFromblast_belowThreshold(): fail
