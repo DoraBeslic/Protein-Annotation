@@ -6,10 +6,8 @@
 **Calling on the command line:** python addKEGGPathways.py [input BLAST file] -t [e-value threshold] [output file]  
 ## Tests: 
 test_addKEGGPathways.py (run with pytest)
-- test_getUniProtFromblast_belowThreshold(): fail
-  - I accidentally did not include a field in my BLAST script from module09, so the e-value in my data is in blast_fields[6] not blast_fields[7]. This accounts for the unit test failure.
-- test_getUniProtFromblast_aboveThreshold: fail
-  - same reason as above
+- test_getUniProtFromblast_belowThreshold(): pass
+- test_getUniProtFromblast_aboveThreshold: pass
 - test_getKeggGenes: pass
 - test_getKeggOrthology: pass
 - test_getKeggPathIDs: pass
